@@ -1,0 +1,53 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.header{
+  padding: 15px 10px;
+  text-align: center;
+  background: #eee;
+  box-shadow: 0px 0px 10px #aaa;
+  color: mediumvioletred;
+}
+.count{
+  width: 100vw;
+  height: 80vh;
+  display: grid;
+  place-items: center;
+}
+.count div{
+  background-color: white;
+  padding: 20px 60px;
+  border-radius: 5%;
+  box-shadow: 1px 8px 10px  black;
+  min-width: 30%;
+}
+.count h1{
+  text-align: center;
+  margin-bottom: 6px;
+}
+.count button{
+  box-shadow: 0px 0px 3px;
+  margin: 20px;
+  padding: 4px 6px;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+}
+@media only screen and (max-width:700px){
+  .count div{
+    background-color: white;
+    padding: 20px 60px;
+    border-radius: 5%;
+    box-shadow: 1px 8px 10px  black;
+    min-width: 50%;
+  }
+}
+.incre:hover{
+  color: aquamarine;
+}
+.decre:hover{
+  color: red;
+} 
